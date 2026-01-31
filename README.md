@@ -94,6 +94,7 @@ Controller → Service → Model
 |----|----|----|
 | POST | /api/auth/register | Register a new user |
 | POST | /api/auth/login | Login and receive JWT |
+| POST | /api/auth/logout | Logout and expires the token |
 
 ### Protected APIs (JWT Required)
 
